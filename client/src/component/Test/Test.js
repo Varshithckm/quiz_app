@@ -143,7 +143,7 @@ var arrayQuest = [
       a: 4,
       b: 6,
       c: 24,
-      d: 2,
+      d: 5,
       correct: "d",
     },
   ],
