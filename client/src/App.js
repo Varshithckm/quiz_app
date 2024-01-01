@@ -15,12 +15,13 @@ import ScoreBoard from "./component/Scorecard/Scorecard";
 import GreaterSmaller from "./component/Practice/Greater_Smaller/Greater_Smaller";
 import StudentData from "./component/StudentData/StudentData";
 import Questions from "./component/Questions/Questions";
+import Navbar from "./component/Navbar/Navbar.js";
 const App = () => {
   console.log("Ap here");
   return (
     <Provider store={store}>
     <BrowserRouter>
-      {/* <Navbar /> */}
+       <Navbar /> 
       <Routes>
         <Route path="/" exact element={<Home />} />
         <Route path="/exercises" exact element={<Practice />} />
